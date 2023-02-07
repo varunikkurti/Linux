@@ -32,3 +32,15 @@ BASIC COMMANDS
                        uname -a --> Prints all the information of the system
                           chmod --> Change permissions of a file or directory
                                     chmod +x <file or path>  -Gives 777 permissions to a file or path
+                             wc --> To find how many lines/words/charc in a file
+                           sort --> It will give what ever data in file in alphabatical order
+                        sort -n --> for numaric values
+=====================================================================================================================================================                                 
+If we use cat ---> It will directly take us to last page 
+             ex:- If we have 50 pages file, cat cmd will take us to last page
+If we use less or move ---> It will go page by page 
+
+        tail <file name> --> It will display last 10 lines of file 
+        head <file name> --> It will display first 10 lines of file
+                                    
+                                    
