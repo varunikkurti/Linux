@@ -3,3 +3,10 @@
              yum list installed --> displays all packages in system
       yum remove <package name> --> removes a package
       yum update <package name> --> update installed old version pacakge to latest version
+        yum info <package name> --> to know the information about a package before installing it
+                yum list | less --> to list all the available packages in the Yum database
+            yum provides <path> --> Yum provides function is used to find which package a specific file belongs to
+                                    ex :- For example, if you would like to know the name of the package that has the /etc/httpd/conf/httpd.conf.
+                                         yum provides /etc/httpd/conf/httpd.conf
+                                    
+                                 
