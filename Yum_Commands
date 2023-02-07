@@ -17,3 +17,18 @@
                   
  yum --enablerepo=epel install<Package name>  ---> To install a particular package from a specific enabled or disabled repository, 
                                                    you must use --enablerepo an option in your yum command
+                                                   
+                                                   
+                                                   
+Install Group Packages  -->  To install a particular package group, we use the option as groupinstall. 
+                         For example, to install “MySQL Database“, just execute the below command.
+                         
+              yum groupinstall 'MySQL Database'
+              
+Update a Group Packages -->  To update any existing installed group packages, just run the following command as shown below
+
+              yum groupupdate 'DNS Name Server'
+              
+  Remove Group Packages -->  To delete or remove any existing installed group from the system, just use the below command.
+  
+              yum groupremove 'DNS Name Server'
