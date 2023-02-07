@@ -8,5 +8,12 @@
             yum provides <path> --> Yum provides function is used to find which package a specific file belongs to
                                     ex :- For example, if you would like to know the name of the package that has the /etc/httpd/conf/httpd.conf.
                                          yum provides /etc/httpd/conf/httpd.conf
-                                    
-                                 
+               yum check-update --> To find how many installed packages on your system have updates available
+                     yum update --> To keep your system up-to-date with all security and binary package updates.
+                   yum repolist --> To list all enabled Yum repositories in your system              
+               yum repolist all --> it will display all enabled and disabled yum repositories on the system               
+                  yum clean all --> to Clean Yum Cache
+                  
+                  
+ yum --enablerepo=epel install<Package name>  ---> To install a particular package from a specific enabled or disabled repository, 
+                                                   you must use --enablerepo an option in your yum command
