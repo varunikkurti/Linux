@@ -1,5 +1,5 @@
       yum search <package name> --> displays all packages in yum repository
-     yum install <package name> --> installs a package)
+     yum install <package name> --> installs a package
              yum list installed --> displays all packages in system
       yum remove <package name> --> removes a package
       yum update <package name> --> update installed old version pacakge to latest version
